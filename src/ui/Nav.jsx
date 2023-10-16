@@ -18,7 +18,7 @@ function Nav() {
 
   return (
     <nav className="nav m-4 mt-0 pt-4 flex justify-between">
-      <img src="/public/images/logo.svg" alt="" className="w-[2rem] h-[2rem]" />
+      <img src="/images/logo.svg" alt="" className="w-[2rem] h-[2rem]" />
       <ul ref={targetElementRef}
         className={`link fixed top-0 right-0 
        translate-x-[50rem] transition-all duration-300

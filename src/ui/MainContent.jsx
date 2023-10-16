@@ -6,10 +6,10 @@ export default function MainContent() {
           <picture className="">
             <source
               media="(min-width: 708px)"
-              srcSet="/public/images/image-web-3-desktop.jpg"
+              srcSet="/images/image-web-3-desktop.jpg"
             />
             <img
-              src="/public/images/image-web-3-mobile.jpg"
+              src="/images/image-web-3-mobile.jpg"
               className="w-full"
               alt="Description of the image"
             />
@@ -67,7 +67,7 @@ export default function MainContent() {
       <div className="p-4 tablet:grid tablet:grid-cols-2 big:grid-cols-3 gap-2">
         <article className="flex gap-4 items-center mb-4">
           <img
-            src="/public/images/image-top-laptops.jpg"
+            src="/images/image-top-laptops.jpg"
             className="w-[100px]"
             alt=""
           />
@@ -85,7 +85,7 @@ export default function MainContent() {
         </article>
         <article className="flex gap-4 items-center mb-4">
           <img
-            src="/public/images/image-retro-pcs.jpg"
+            src="/images/image-retro-pcs.jpg"
             className="w-[100px]"
             alt=""
           />
@@ -103,7 +103,7 @@ export default function MainContent() {
         </article>
         <article className="flex gap-4 items-center">
           <img
-            src="/public/images/image-gaming-growth.jpg"
+            src="/images/image-gaming-growth.jpg"
             className="w-[100px]"
             alt=""
           />
@@ -123,73 +123,3 @@ export default function MainContent() {
     </section>
   );
 }
-
-//  <div className="flex flex-col ipad:grid grid-rows-3 grid-cols-3 gap-2 h-calc p-4">
-//       <div className="bg-Red row-start-1 row-end-3 col-start-1 col-end-3">
-//         <div className="flex flex-col">
-//           <div className="">
-//             <img
-//               src="/public/images/image-web-3-desktop.jpg"
-//               className="hidden phone:block w-[100%] h-[50%]"
-//               alt=""
-//             />
-//             <img
-//               src="/public/images/image-web-3-mobile.jpg"
-//               className="phone:hidden"
-//               alt=""
-//             />
-//           </div>
-
-//           <article>
-//             <div className="">
-//               <h1 className="text-5xl font-bold ">
-//                 The Bright Future of Web 3.0?
-//               </h1>
-//             </div>
-
-//             <div className="text-lg text-gray mb-1 ">
-//               <p className="w-[20rem]">
-//                 We dive into the next evolution of the web that claims to put
-//                 the power of the platforms back into the hands of the people.
-//                 But is it really fulfilling its promise?
-//               </p>
-//               <button className="inline-block bg-Red py-2 px-4 my-2 text-sm uppercase text-offwhite font-medium tracking-wider">
-//                 Read more
-//               </button>
-//             </div>
-//           </article>
-//         </div>
-//       </div>
-
-//       <div className="bg-darkBlue text-offwhite p-4 col-start-3 col-end-auto row-start-1 row-end-[-2] flex flex-col justify-between gap-y-1">
-//         <h1 className="text-Orange text-3xl font-semibold">New</h1>
-//         <div>
-//           <h3 className="text-xl my-2">Hydrogen VS Electric Cars</h3>
-//           <p className="text-sm tablet:text-sm big:text-[1rem]">
-//             Will hydrogen-fueled cars ever catch up to EVs?
-//           </p>
-//         </div>
-//         <hr className="" />
-//         <div>
-//           <h3 className="text-xl my-2">The Downsides of AI Artistry</h3>
-
-//           <p className="text-sm tablet:text-sm big:text-[1rem]">
-//             What are the possible adverse effects of on-demand AI image
-//             generation?
-//           </p>
-//         </div>
-//         <hr className="" />
-//         <div>
-//           <h3 className="text-xl my-2">Is VC Funding Drying Up?</h3>
-
-//           <p className="text-sm tablet:text-sm big:text-[1rem]">
-//             Private funding by VC firms is down 50% YOY. We take a look at what
-//             that means.
-//           </p>
-//         </div>
-//       </div>
-
-//       <div className="bg-green-200 p-4 row-start-3 row-end-auto col-start-1 col-end-[-1]">
-//         Content for the second row, third column
-//       </div>
-//     </div>
