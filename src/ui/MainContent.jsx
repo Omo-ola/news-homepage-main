@@ -1,7 +1,7 @@
 export default function MainContent() {
   return (
-    <section>
-      <div className="p-2 tablet:flex gap-8">
+    <section className="h-calc">
+      <div className="p-1 tablet:flex gap-8 justify-center tablet:mb-[-6.5rem]">
         <div className="">
           <picture className="">
             <source
@@ -10,12 +10,12 @@ export default function MainContent() {
             />
             <img
               src="/images/image-web-3-mobile.jpg"
-              className="w-full"
+              className="w-full h-[50%] object-cover"
               alt="Description of the image"
             />
           </picture>
           <div className="mt-4 phone:grid grid-cols-2 phone:gap-8 place-items-center">
-            <h1 className="text-4xl font-[800] my-3 ">
+            <h1 className="text-4xl font-[800] my-2">
               The Bright Future of Web 3.0?
             </h1>
             <div className="text-sm text-gray mb-1 ">
@@ -31,37 +31,38 @@ export default function MainContent() {
           </div>
         </div>
 
-        <div className=" bg-darkBlue text-offwhite p-4 laptop:pb-0">
+        <div className=" bg-darkBlue text-offwhite h-[fit-content] p-4 laptop:pb-2">
           <h1 className="text-Orange text-2xl font-[700]">New</h1>
-          <article className="my-4">
-            <h3 className="text-lg mb-4 font-bold hover:text-Orange transition-all duration-300">
+          <article className="my-2">
+            <h3 className="text-[1rem] mb-2 font-bold hover:text-Orange transition-all duration-300">
               Hydrogen VS Electric Cars
             </h3>
-            <p className="text-sm font-semibold">
+            <p className="text-[0.7rem] font-semibold">
               Will hydrogen-fueled cars ever catch up to EVs?
             </p>
           </article>
           <hr />
-          <article className="my-4">
-            <h3 className="text-lg mb-4 font-bold hover:text-Orange transition-all duration-300">
+          <article className="my-2">
+            <h3 className="text-[1rem] mb-2 font-bold hover:text-Orange transition-all duration-300">
               The Downsides of AI Artistry
             </h3>
-            <p className="text-sm font-semibold">
+            <p className="text-[0.7rem] font-semibold">
               What are the possible adverse effects of on-demand AI image
               generation?
             </p>
           </article>
           <hr />
-          <article className="mt-4">
-            <h3 className="text-lg mb-2 font-bold hover:text-Orange transition-all duration-300">
+          <article className="mt-2">
+            <h3 className="text-[1rem] mb-2 font-bold hover:text-Orange transition-all duration-300">
               Is VC Funding Drying Up?
             </h3>
-            <p className="text-sm font-semibold">
+            <p className="text-[0.7rem] font-semibold">
               Private funding by VC firms is down 50% YOY. We take a look at
               what that means.
             </p>
           </article>
         </div>
+
       </div>
 
       <div className="p-4 tablet:grid tablet:grid-cols-2 big:grid-cols-3 gap-2">
@@ -84,11 +85,7 @@ export default function MainContent() {
           </div>
         </article>
         <article className="flex gap-4 items-center mb-4">
-          <img
-            src="/images/image-retro-pcs.jpg"
-            className="w-[100px]"
-            alt=""
-          />
+          <img src="/images/image-retro-pcs.jpg" className="w-[100px]" alt="" />
           <div>
             <span className="text-3xl font-bold text-darkBlue opacity-70">
               02

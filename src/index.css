@@ -7,11 +7,19 @@ body{
     background-color: hsl(36, 100%, 99%);
 }
 html{
-    font-size: 15px;
+    font-size: 14.4px;
 }
 ::-webkit-scrollbar {
   display: none;
 }
+::-moz-scrollbar{
+    display: none;
+}
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 
 @media screen and (min-width: 560px) {
     .link{

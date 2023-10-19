@@ -25,7 +25,7 @@ export default {
         offwhite: "hsl(36, 100%, 99%)",
       },
       height: {
-        calc: "calc(100vh - 4.3rem)",
+        calc: "calc(100dvh - 4rem)",
       },
     },
   },
